@@ -182,7 +182,7 @@ ul {
     border-radius: 10px;
     background: linear-gradient(136deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%);
     backdrop-filter: blur(16px);
-    transform: translateY(-128px) !important;
+    transform: translateY(-86px);
 }
 
 .fs-48 {
@@ -587,7 +587,7 @@ tr {
     justify-content: center;
     flex-direction: column;
     position: fixed;
-    top: 0;
+    top: 20px;
     left: -100%;
     width: 100%;
     height: 100vh;
@@ -609,15 +609,21 @@ tr {
 .col-12 {
     width: 100%;
 }
-
-.fs-cursus {
-    font-size: 14px !important;
+.mt-122-how {
+    margin-top: 22px;
 }
-
+.cards {
+    transform: translateY(-36px);
+}
+ .fs-48 {
+     font-size: 14px;
+ }
 .min-w-660 {
     min-width: unset;
 }
-
+.mb-121 {
+    margin-bottom: 51px;
+}
 .mt-227 {
     margin-top: 47px;
 }
@@ -656,7 +662,7 @@ tr {
 }
 
 .mt-243-cursus {
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .ph-32-sm {
@@ -711,7 +717,12 @@ tr {
 :root {
     --t-fs-18: 6px;
 }
-
+.mb-32{
+    margin-bottom: 15px;
+}
+.mt-62{
+    margin-top: 30px;
+}
 
 @media(max-width: 992px) {
     label[for="iconbar"] {
@@ -743,19 +754,22 @@ tr {
         --fs-96: 46px !important;
         --t-fs-18: 12px;
     }
-
     .img146 {
         margin-left: 70px;
     }
-
+.fs-48 {
+    font-size: 48px;
+}
     .mt-243-cursus {
-        margin-top: 100px;
+        margin-top: 10px;
     }
 
     .ph-32-sm {
         font-size: 36px !important;
     }
-
+.mb-121 {
+    margin-bottom: 71px;
+}
     .boxs1 {
         margin-top: 30px !important;
         width: 100% !important;
@@ -775,8 +789,25 @@ tr {
     }
 
     .fs-cursus {
-        font-size: 48px !important;
+        font-size: 28px !important;
     }
+
+    .cards {
+        transform: translateY(-86px);
+    }
+        .mt-122-how {
+            margin-top: 52px;
+        }
+                .mb-32 {
+                    margin-bottom: 20px;
+                }
+        
+                .mt-62 {
+                    margin-top: 40px;
+                }
+                .imgs2{
+                    max-width: 450px;
+                }
 }
 
 @media (min-width:768px) {
@@ -784,11 +815,30 @@ tr {
     .img146 {
         margin-left: unset;
     }
+.mt-122-how {
+    margin-top: 122px;
+}
+.mb-121 {
+    margin-bottom: 121px;
+}
+    .fs-48 {
+        font-size: 48px !important;
+    }
+
+    .cards {
+        transform: translateY(-126px);
+    }
 
     :root {
         --fs-96: 66px !important;
     }
+  .mb-32 {
+      margin-bottom: 32px;
+  }
 
+  .mt-62 {
+      margin-top: 62px;
+  }
     .timeline {
         position: relative;
         width: 100%;
@@ -854,11 +904,23 @@ tr {
     :root {
         --t-fs-18: 16px;
     }
+    .imgs2{
+        margin-left: 60px;
+    }
 }
 
 @media (min-width:992px) {
     .left::after {
         left: 98%;
+    }
+        .imgs2 {
+            margin-left: unset !important;
+        }
+ .imgs2 {
+     max-width: unset !important;
+ }
+    .cards {
+        transform: translateY(-86px);
     }
 
     .min-w-660 {
