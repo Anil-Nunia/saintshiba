@@ -119,10 +119,16 @@ ul {
 .hovs:hover {
     color: #FFFFFF;
 }
-
+.h-btn:hover{
+    opacity: 0.7;
+}
 .hov-btn:hover {
-    opacity: 0.5;
+background: #FFFFFF;
+color: #FFA800;
+}
 
+.btn-learn:hover {
+    opacity: 0.5;
 }
 
 .hero-bg {
@@ -183,6 +189,7 @@ ul {
     background: linear-gradient(136deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%);
     backdrop-filter: blur(16px);
     transform: translateY(-86px);
+    border: 1px solid #353330;
 }
 
 .fs-48 {
@@ -241,11 +248,13 @@ ul {
 .grp1 {
     right: -2%;
     bottom: 8%;
+
 }
 
 .grp2 {
     left: -3%;
     top: 15%;
+
 }
 
 .circle {
@@ -323,7 +332,15 @@ ul {
 .imge3 {
     margin-top: 89px;
     margin-bottom: 87px;
-    right: -2%;
+    right: 0;
+    overflow: hidden;
+    max-width: 1056px;
+    height: 636px;
+}
+
+.mpt-box {
+    height: 636px;
+    width: 100%;
 }
 
 .bg-color-acc {
@@ -333,10 +350,14 @@ ul {
 .accordion-header {
     background-color: unset !important;
     border: unset !important;
+    border-top-left-radius: 10px !important;
+        border-top-right-radius: 10px !important;
 }
 
 .accordion-body {
     background: #111010;
+    border-bottom-right-radius: 10px !important;
+        border-bottom-left-radius: 10px !important;
 }
 
 .accordion-button:not(.collapsed) {
@@ -345,22 +366,44 @@ ul {
 
 .accordion-item:first-of-type .accordion-button {
     background-color: #111010;
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+        border-top-left-radius: 10px !important;
+        border-top-right-radius: 10px !important;
 }
+
 
 .second {
     background-color: #111010 !important;
+    border-bottom-right-radius: 10px !important;
+        border-bottom-left-radius: 10px !important;
+        border-top-left-radius: 10px !important;
+        border-top-right-radius: 10px !important;
 }
 
 .third {
     background-color: #111010 !important;
+    border-bottom-right-radius: 10px !important;
+        border-bottom-left-radius: 10px !important;
+        border-top-left-radius: 10px !important;
+        border-top-right-radius: 10px !important;
 }
 
 .fourth {
     background-color: #111010 !important;
+    border-bottom-right-radius: 10px !important;
+        border-bottom-left-radius: 10px !important;
+        border-top-left-radius: 10px !important;
+        border-top-right-radius: 10px !important;
 }
 
 .fifth {
     background-color: #111010 !important;
+    border-bottom-right-radius: 10px !important;
+        border-bottom-left-radius: 10px !important;
+        border-top-left-radius: 10px !important;
+        border-top-right-radius: 10px !important;
+   
 }
 
 .accordion-button::after {
@@ -373,6 +416,11 @@ ul {
 
 .accordion-item {
     border: 1px solid #282828 !important;
+    background-color: unset !important;
+    border-radius: 10px !important;
+    background: linear-gradient(136deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%) !important;
+        backdrop-filter: blur(16px) !important;
+       
 }
 
 .bg-color-tl {
@@ -476,6 +524,7 @@ ul {
     background: linear-gradient(136deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.00) 100%);
     backdrop-filter: blur(16px);
     max-width: 424px !important;
+    border: 1px solid #262525;
 }
 
 .box-1st {
@@ -575,10 +624,6 @@ tr {
     background: #FF4560;
 }
 
-.imge3 {
-    position: absolute;
-}
-
 .ml-48-xsm {
     margin-left: 48px;
 }
@@ -600,6 +645,35 @@ tr {
     left: 0;
 }
 
+.imgy7 {
+    left: 50px !important;
+    top: 10px !important;
+    fill: var(--orange, #F06500);
+    filter: blur(150px);
+    max-width: 130px;
+    height: 130px;
+}
+
+.imgy8 {
+    border-radius: 292px;
+    background: var(--yellow, #FFA800);
+    filter: blur(250px);
+    max-width: 292px;
+    height: 292px;
+    right: -380px;
+    bottom: 150px;
+}
+
+.imge9 {
+    border-radius: 292px;
+    background: var(--yellow, #FFA800);
+    filter: blur(250px);
+    max-width: 292px;
+    height: 292px;
+    left: 1540px;
+    bottom: -220px;
+}
+
 .overflow_hidden {
     overflow: hidden;
 }
@@ -609,33 +683,41 @@ tr {
 .col-12 {
     width: 100%;
 }
+
 .mt-122-how {
     margin-top: 22px;
 }
+
 .cards {
     transform: translateY(-36px);
 }
- .fs-48 {
-     font-size: 14px;
- }
+
+.fs-48 {
+    font-size: 14px;
+}
+
 .min-w-660 {
     min-width: unset;
 }
+
 .mb-121 {
-    margin-bottom: 51px;
+    margin-bottom: 21px;
 }
+
 .mt-227 {
     margin-top: 47px;
 }
 
-.btn-mt-50 {
-    margin-bottom: 10px;
-    margin-top: 10px;
+.grp1 {
+    z-index: -1;
 }
 
-.imge3 {
-    position: unset !important;
-    content: "" unset !important;
+.grp2 {
+    z-index: -1;
+}
+
+.btn-mt-50 {
+    margin-bottom: 10px;
     margin-top: 10px;
 }
 
@@ -717,11 +799,19 @@ tr {
 :root {
     --t-fs-18: 6px;
 }
-.mb-32{
+
+.mb-32 {
     margin-bottom: 15px;
 }
-.mt-62{
+
+.mt-62 {
     margin-top: 30px;
+}
+
+.imge3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 @media(max-width: 992px) {
@@ -754,12 +844,21 @@ tr {
         --fs-96: 46px !important;
         --t-fs-18: 12px;
     }
+
+    .imge3 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
     .img146 {
         margin-left: 70px;
     }
-.fs-48 {
-    font-size: 48px;
-}
+
+    .fs-48 {
+        font-size: 48px;
+    }
+
     .mt-243-cursus {
         margin-top: 10px;
     }
@@ -767,9 +866,11 @@ tr {
     .ph-32-sm {
         font-size: 36px !important;
     }
-.mb-121 {
-    margin-bottom: 71px;
-}
+
+    .mb-121 {
+        margin-bottom: 71px;
+    }
+
     .boxs1 {
         margin-top: 30px !important;
         width: 100% !important;
@@ -795,19 +896,22 @@ tr {
     .cards {
         transform: translateY(-86px);
     }
-        .mt-122-how {
-            margin-top: 52px;
-        }
-                .mb-32 {
-                    margin-bottom: 20px;
-                }
-        
-                .mt-62 {
-                    margin-top: 40px;
-                }
-                .imgs2{
-                    max-width: 450px;
-                }
+
+    .mt-122-how {
+        margin-top: 52px;
+    }
+
+    .mb-32 {
+        margin-bottom: 20px;
+    }
+
+    .mt-62 {
+        margin-top: 40px;
+    }
+
+    .imgs2 {
+        max-width: 450px;
+    }
 }
 
 @media (min-width:768px) {
@@ -815,12 +919,21 @@ tr {
     .img146 {
         margin-left: unset;
     }
-.mt-122-how {
-    margin-top: 122px;
-}
-.mb-121 {
-    margin-bottom: 121px;
-}
+
+    .imge3 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: unset;
+    }
+
+    .mt-122-how {
+        margin-top: 122px;
+    }
+
+    .mb-121 {
+        margin-bottom: 21px;
+    }
+
     .fs-48 {
         font-size: 48px !important;
     }
@@ -832,13 +945,15 @@ tr {
     :root {
         --fs-96: 66px !important;
     }
-  .mb-32 {
-      margin-bottom: 32px;
-  }
 
-  .mt-62 {
-      margin-top: 62px;
-  }
+    .mb-32 {
+        margin-bottom: 32px;
+    }
+
+    .mt-62 {
+        margin-top: 62px;
+    }
+
     .timeline {
         position: relative;
         width: 100%;
@@ -904,7 +1019,8 @@ tr {
     :root {
         --t-fs-18: 16px;
     }
-    .imgs2{
+
+    .imgs2 {
         margin-left: 60px;
     }
 }
@@ -913,12 +1029,19 @@ tr {
     .left::after {
         left: 98%;
     }
-        .imgs2 {
-            margin-left: unset !important;
-        }
- .imgs2 {
-     max-width: unset !important;
- }
+
+    .mb-121 {
+        margin-bottom: 21px;
+    }
+
+    .imgs2 {
+        margin-left: unset !important;
+    }
+
+    .imgs2 {
+        max-width: unset !important;
+    }
+
     .cards {
         transform: translateY(-86px);
     }
@@ -933,12 +1056,6 @@ tr {
 
     .btn-mt-50 {
         margin-bottom: 50px;
-    }
-
-    .imge3 {
-        position: absolute !important;
-        content: "" !important;
-        margin-top: 150px;
     }
 
     .py-13 {
@@ -975,4 +1092,45 @@ tr {
         overflow: scroll;
     }
 
+}
+
+@media (min-width:1200px) {
+    .position_absolute {
+        position: absolute;
+    }
+
+    .mb-121 {
+        margin-bottom: 121px;
+    }
+
+}
+@media (min-width:1400px) {
+    .grp1 {
+            z-index: unset;
+        }
+        .grp2 {
+            z-index: unset;
+        }
+}
+
+@media (max-width:1800px) {
+    .imge3 {
+        margin-top: 89px;
+        margin-bottom: 87px;
+        right: 0;
+        overflow: hidden;
+        max-width: 1056px;
+        height: 500px;
+    }
+}
+
+@media (max-width:1440px) {
+    .imge3 {
+        margin-top: 89px;
+        margin-bottom: 87px;
+        right: 0;
+        overflow: hidden;
+        max-width: 1056px;
+        height: 400px;
+    }
 }
